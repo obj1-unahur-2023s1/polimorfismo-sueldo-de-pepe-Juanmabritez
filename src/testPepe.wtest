@@ -1,0 +1,13 @@
+import pepe.*
+import bonos.*
+import categorias.*
+
+describe "test noseque"
+method initialize(){
+pepe.setCategoria(cadete)
+pepe.setCantFaltas(1)
+pepe.setBonoPresentismo(bonoPresentismo.monto(pepe))
+pepe.setBonoResultado(bonoResultados.monto(pepe))
+}
+test "asfsa"
+assert.equials(10000,pepe.sueldoNeto())
